@@ -1,0 +1,177 @@
+.container{
+width: 100%;
+text-align: center;
+align-items: center;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.nav a:hover{
+    color: #8587b7;
+}
+select{
+    border: none;
+    color: dimgray;
+    align-items: center;
+    text-align: center;
+    padding-top:2px ;
+}
+#log{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+a{
+  color:dimgray;
+  text-decoration: none;
+}
+button{
+    background-color: royalblue;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+button a:hover{
+}
+img{
+    width: 200px;
+    align-items: center;
+}
+.part_one{
+    background-color: rgb(11, 11, 80);
+    color: white;
+}
+#plate{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 10px;   
+}
+.design{
+    width: 120px;
+    border: 1px solid rgb(96, 90, 90);
+    box-shadow: rgba(91, 86, 86, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.design a:hover{
+    border-color: rgb(27, 104, 104);
+}
+#input{
+    display: flex;
+}
+#plate img{
+    width: 50px;
+}
+.part_one button{
+    width:200px;
+    margin-top:20px   
+}
+.part_one>img{
+    width: 100%;
+}
+.hulu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hulu>img{
+    width: 70px;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 70px;
+}
+.part_two #the_work{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+}
+.part_three{
+    align-items: left;
+}
+.btn{
+    gap: 10px;
+    align-items: center;
+}
+video{
+    width:800px;
+    margin-top: 20px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.vid{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.vid>h1{
+    text-align: center;   
+}
+.part_four{
+    width: 100%;
+    text-align: center;
+}
+.vote{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.trust{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.trust img{
+width: 100px;
+}
+.best{
+    background-color: rgb(7, 7, 68);
+    color: white;
+    padding-top: 10px;
+}
+.best button{
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.col_1{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    gap: 20px;
+}
+.col_1 img{
+    width: 100px;
+}
+.col_2{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    gap: 20px;
+}
+.col_2 h3{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.col_3 img{
+    width: 20px;
+    padding-right: 10px;
+    padding-top:10px
+}
+
+
