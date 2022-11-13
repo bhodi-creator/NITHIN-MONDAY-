@@ -1,0 +1,141 @@
+#login{
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+}
+.nav1 img{
+    width: 100px;
+}
+.account{
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    width: 50%;
+    margin: auto;
+}
+.account>h1{
+    padding-bottom: 20px;
+    color: rgb(133, 141, 141); 
+}
+.account>input{
+    width: 350px;
+    height: 40px;
+    margin: auto; 
+    font-size: 20px;
+    margin-top: 10px;
+    border-color: rgb(155, 155, 149);
+
+}
+.account>h5{
+    padding-bottom: 20px;
+    color: rgb(133, 141, 141);  
+    padding-top: 20px; 
+}
+#google{
+    width: 100px;
+    height: auto;
+    font-size: 17px;
+    background-color:beige;
+    border: 1px solid rgb(168, 164, 164);
+    border-color: bisque;
+
+
+}
+#input1{
+    display: block;
+    border-color: rgb(155, 155, 149);
+}
+.account>div>button{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    background-color:rgb(0, 115, 234);
+    font-size: 30px;
+    color: rgb(176, 185, 185);
+    border: none;
+    border-radius: 5px;
+}
+.content{
+    height: 250px;
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+button>img{
+    width: 15px;
+    padding-top: 5px;
+}
+.popup
+{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    margin: auto;
+    
+}
+.play{
+    width: 50%;
+    height:100%
+}
+#span{
+color: blue;
+}
+.play img{
+    width: 100%;
+    height: 620px;
+}
+#popcont{
+    display: none;
+    align-items: center;
+    margin: auto;
+
+}.content>input{
+    width: 350px;
+    height: 40px;
+    margin: auto; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+#button{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    background-color:rgb(0, 115, 234);
+    font-size: 30px;
+    color: rgb(176, 185, 185);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+#check{
+    align-items:flex-end;
+}
+#bule{
+    color: rgb(109, 109, 184);
+}
+#check{
+    
+}
+#check input{
+    width: 70px;
+}
+#btn>img{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+#btn{
+    border-radius: 5px;
+    border-color: bisque;
+    background-color: beige;
+    align-items: center;
+    color: rgb(108, 108, 232);
+}
+
+
+

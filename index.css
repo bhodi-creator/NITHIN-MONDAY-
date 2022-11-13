@@ -150,11 +150,13 @@ width: 100px;
     display: flex;
     margin-top: 30px;
     gap: 30px;
+    justify-content: space-evenly;
 }
 .col_1{
     display: grid;
     padding: 10px 10px 10px 10px;
     gap: 20px;
+    text-align: left;
 }
 .col_1 img{
     width: 100px;
@@ -163,8 +165,9 @@ width: 100px;
     display: grid;
     padding: 10px 10px 10px 10px;
     gap: 20px;
+    text-align: left;
 }
-.col_2 h3{
+.footer h3{
     font-weight: 200;
     letter-spacing: 1px;
 }
@@ -173,5 +176,21 @@ width: 100px;
     padding-right: 10px;
     padding-top:10px
 }
-
-
+.col_3{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    gap: 20px; 
+    text-align: left;
+}
+.col_4{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    gap: 20px; 
+    text-align: left;
+}
+.col_5{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    gap: 20px; 
+    text-align: left; 
+}

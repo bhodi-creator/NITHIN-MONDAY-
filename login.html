@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="./login.css">
+</head>
+<body>
+    <div>
+    <div id="login">
+        <div class="nav1">
+            <img src="https://cdn.monday.com/images/logos/monday_logo_short.png" alt="">
+        </div>
+        <div class="account">
+            <h1>Log in to your account</h1>
+            <h4>Enter your work email address</h4>
+            <input id="input1" type="text" placeholder="Example@company.com">
+            <input id="pass" type="password" placeholder="Password">
+            <div id="bule"> Forgot your Password</div>
+            <div>
+            <button id="log">Login</button>
+           </div>
+            <h5>---------Or Sign in with--------</h5>
+            <button id="google"><img src="https://cdn.monday.com/images/logo_google_v2.svg" alt=""> Google</button>
+            <p>Don't have an account yet?</p>
+            <div>
+               <span id="span">sign up</span> 
+            </div>
+            </div>
+        </div>
+     <div id="popcont">  
+     <div class="popup">
+        <div class="content">
+            <h3>Welcome to monday.com</h3>
+            <p>get started-its free</p>
+            <input type="text" placeholder="name@company">
+            <input type="text" placeholder="Full name">
+            <input type="password" placeholder="Create a Password">
+            <input type="text" placeholder="Account Name">
+            <div id="check">
+            <input  type="checkbox">
+            <p>i agree  to the terms of service and privacy policy</p>
+            </div>
+            <button id="button" onclick="">continue</button>
+            <h4>------------------------------OR--------------------------------</h4>
+            <button id="btn"><img src="https://cdn.monday.com/images/google-icon.svg" alt="">Continue with Google</button>
+            <p>Already have an account?</p>
+            <a href="login.html"> login</a>
+        </div>
+        <div class="play">
+            <img src="https://dapulse-res.cloudinary.com/image/upload/monday_platform/signup/soft-welcome.png" alt="">
+        </div>
+    </div> 
+    </div> 
+    <div>
+</body>
+</html>
+<script>
+    let arr=JSON.parse(localStorage.getItem("lsarr"))||[];
+    document.getElementById("span").addEventListener("click",function(){
+        let box=document.getElementById("popcont")
+        box.style.display="block"
+        let box2=document.getElementById("login")
+        box2.style.display="none"
+    })
+    document.getElementById("button").addEventListener("click",function(){
+        let box=document.getElementById("popcont")
+        box.style.display="none"
+        let box2=document.getElementById("login")
+        box2.style.display="block"
+        alert("register succes")
+    })
+    document.getElementById("log").addEventListener("click",loginUp)
+    function loginUp(){
+        let object={
+            user_name:document.getElementById("input1").value,
+            password:document.getElementById("pass").value
+        }
+        arr.push(object)
+
+        localStorage.setItem("lsarr",JSON.stringify(arr))
+        if(object.user_name=="nithinjayaraj23@gmail.com" &&object.password==1234){
+            alert("login succes full")
+            window.location.href="index.html"
+        }
+    }
+
+</script>
